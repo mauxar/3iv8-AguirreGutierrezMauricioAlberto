@@ -38,38 +38,7 @@ do{
                 base = entrada.nextInt();
             EJERCICIO2(base);
             break; 
-            case 3:
-                System.out.println("Ingresa el valor de la base");
-                 base = entrada.nextInt();
-                System.out.println("Ingresa el valor de la altura");
-                 altura = entrada.nextInt();
-            EJERCICIO3(base,altura);
-            break; 
-            case 4:
-                System.out.println("Ingresa el valor de la radio");
-                base = entrada.nextInt();
-            EJERCICIO4(base);
-            break; 
-            case 5:
-                System.out.println("Ingresa el valor de la base");
-                 base = entrada.nextInt();
-                System.out.println("Ingresa el valor de la altura");
-                 altura = entrada.nextInt();
-                EJERCICIO5(base,altura);
-                break;  
-
-            case 6:
-                 System.out.println("Cuanto credito tienes?");
-                 credito = entrada.nextInt();
-                 System.out.println("Escriba cuantas llamadas internacionales hizo");
-                 lli = entrada.nextInt();
-                 System.out.println("Escriba cuantas llamadas nacionales hizo");
-                 lln = entrada.nextInt();
-                 System.out.println("Escriba cuantas llamadas a celulares hizo");
-                 llc = entrada.nextInt();
-                EJERCICIO6(credito,lli,lln,llc);
-                break;                    
-            case 7:
+            
 
                 EJERCICIO7();
                 break;
